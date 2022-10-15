@@ -10,7 +10,7 @@ print(f"Reaumur = {r}°R")
 print(f"Kelvin = {k}°K")
 
 print("\n",10*"=","Conversi Fahrenheit",10*"=")
-f = int(input("Masukkan Besar Suhu : "))
+f = float(input("Masukkan Besar Suhu : "))
 print(10*"=","Hasil Konversi",10*"=")
 print(f"Suhu Awal = {f}°F")
 c = round(5/9*(f-32),2)
@@ -21,7 +21,7 @@ print(f"Reaumur = {r}°R")
 print(f"Kelvin = {k}°K")
 
 print("\n",10*"=","Conversi Reamur",10*"=")
-r = int(input("Masukkan Besar Suhu : "))
+r = float(input("Masukkan Besar Suhu : "))
 print(10*"=","Hasil Konversi",10*"=")
 print(f"Suhu Awal = {r}°R")
 c = 5/4*r
@@ -32,7 +32,7 @@ print(f"Fahrenheit = {f}°F")
 print(f"Kelvin = {k}°K")
 
 print("\n",10*"=","Conversi Kelvin",10*"=")
-k = int(input("Masukkan Besar Suhu : "))
+k = float(input("Masukkan Besar Suhu : "))
 print(10*"=","Hasil Konversi",10*"=")
 print(f"Suhu Awal = {k}°K")
 c = k-273
