@@ -4,7 +4,7 @@ def keliling_balok ():
     panjang = float(input("Masukkan Panjang Balok \t: "))
     lebar = float(input("Masukkan Lebar Balok \t: "))
     tinggi = float(input("Masukkan Tinggi Balok \t: "))
-    kel = 4*(panjang*lebar*tinggi)
+    kel = 4*(panjang+lebar+tinggi)
     if kel % 2 == 1 or kel % 2 == 0 :
         kel = int(kel)
     else:
